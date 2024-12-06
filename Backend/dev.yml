@@ -1,0 +1,5 @@
+services:
+  springboot-proj:
+    build: .
+    ports:
+      - "9090:8080"
